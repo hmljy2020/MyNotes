@@ -46,4 +46,10 @@
 
 直接浏览 [notes/](notes/) 目录下的 Markdown 笔记，或通过 GitHub 搜索查找感兴趣的主题。
 
+## Agent Skill
+
+仓库提供标准 Skill：[skills/mynotes/SKILL.md](skills/mynotes/SKILL.md)，包含仓库地址、笔记写法和保存约定。
+
+将整个 `skills/mynotes/` 文件夹复制到 Agent 支持的技能目录即可安装。对于 Codex，默认目录为 `~/.codex/skills/`，安装后的入口文件为 `~/.codex/skills/mynotes/SKILL.md`。使用时可以说：“用 mynotes 把这段对话整理为学习笔记，保存到 MyNotes。”
+
 这是一个持续积累的个人知识仓库。笔记反映记录时的理解，欢迎通过 Issue 讨论和指正。
